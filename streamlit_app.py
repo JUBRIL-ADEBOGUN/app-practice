@@ -6,5 +6,5 @@ st.title('Machine Learning App')
 
 st.write('This is a practice of deploying machine lesaning models.')
 with st.expander('Data'):
-  df = pd.read_csv("https://github.com/JUBRIL-ADEBOGUN/Telecom-Customer-Churn/blob/main/customer-churn-cleaned.csv")
+  df = pd.read_csv("https://github.com/JUBRIL-ADEBOGUN/DSN-AI-BOOTCAMP-2024/blob/main/Train%20Dataset%20.csv")
   df.head()
